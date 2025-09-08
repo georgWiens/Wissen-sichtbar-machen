@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
   <meta charset="UTF-8">
-  <title>Die besten Reiseziele der Welt</title>
+  <title>Top Reiseziele</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -21,31 +21,25 @@
     }
     .container {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
       padding: 20px;
     }
     .card {
       background: white;
       border-radius: 10px;
-      overflow: hidden;
+      padding: 15px;
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       transition: transform 0.2s;
     }
     .card:hover {
       transform: scale(1.03);
     }
-    .card img {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-    }
     .card h2 {
-      margin: 10px;
-      font-size: 1.2em;
+      margin-top: 0;
+      color: #009688;
     }
     .card p {
-      margin: 10px;
       font-size: 0.95em;
       color: #555;
     }
@@ -59,37 +53,32 @@
 </head>
 <body>
   <header>
-    <h1>🌍 Top Reiseziele der Welt</h1>
+    <h1>🌍 Die besten Reiseziele der Welt</h1>
     <p>Entdecke traumhafte Orte für deinen nächsten Urlaub</p>
   </header>
 
   <main class="container">
     <div class="card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a8/Tour_Eiffel_Wikimedia_Commons.jpg" alt="Paris">
       <h2>Paris, Frankreich</h2>
-      <p>Die Stadt der Liebe mit dem Eiffelturm, Louvre und romantischen Cafés.</p>
+      <p>Die Stadt der Liebe mit Eiffelturm, Louvre und romantischen Cafés.</p>
     </div>
 
     <div class="card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/4/4d/New_york_times_square-terabass.jpg" alt="New York">
       <h2>New York, USA</h2>
       <p>Die Stadt, die niemals schläft – Skyline, Times Square und Central Park.</p>
     </div>
 
     <div class="card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/1/16/Tokyo_Tower_and_around_Skyscrapers.jpg" alt="Tokio">
       <h2>Tokio, Japan</h2>
       <p>Eine Mischung aus Tradition und High-Tech – Tempel, Neonlichter und Sushi.</p>
     </div>
 
     <div class="card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9e/Bali_Indonesia_Temple.jpg" alt="Bali">
       <h2>Bali, Indonesien</h2>
       <p>Traumhafte Strände, Vulkane und eine einzigartige Kultur.</p>
     </div>
 
     <div class="card">
-      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg" alt="Rom">
       <h2>Rom, Italien</h2>
       <p>Die ewige Stadt mit Kolosseum, Vatikan und leckerem italienischem Essen.</p>
     </div>
